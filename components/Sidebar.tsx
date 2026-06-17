@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { LayoutDashboard, FilePlus2, History, BookOpen, AlertTriangle, Star, LogOut, Stethoscope } from "lucide-react";
+import { LayoutDashboard, FilePlus2, History, BookOpen, AlertTriangle, Star, LogOut, Stethoscope, Calculator } from "lucide-react";
 import { useApp } from "@/lib/store";
 import { ESPECIALIDADES } from "@/lib/data";
 
@@ -12,6 +12,7 @@ const ITEMS = [
   { href: "/historico", label: "Histórico", icon: History },
   { href: "/protocolos", label: "Protocolos", icon: BookOpen },
   { href: "/interacoes", label: "Interações", icon: AlertTriangle },
+  { href: "/calculadoras", label: "Calculadoras", icon: Calculator },
   { href: "/favoritos", label: "Favoritos", icon: Star },
 ];
 
